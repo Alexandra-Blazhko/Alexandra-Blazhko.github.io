@@ -1,73 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Александра Блажко Фронтенд разработчик</title>
-        <body>
-            <header class="page-header">
-                <div class="page-header content">
-                   <nav class="page-header navigation">
-                   <!--<img src="#" width="368" height="153" alt="Моё имя">-->
-                       <ul class="page-header navigation">
-                           <li class="info">Skills</li>
-                           <li class="works">Работы</li>
-                           <li class="portfolio">Портфолио</li>
-                        </ul>
-                        <ul class="page-header social-menu">
-                            <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="social facebook">facebook</a></li>
-                            <li><a a href="#" class="social telegram">telegram</a></li>
-                            <li><a href="#" class="social git">git</a></li>
-                            <li tel class="social tel">№тел</li>
-                        </ul>
-                    </nav>
-                    <div class="page-header description"><img src="img/logo.jpg" width="811" height="1066" alt="Описание"></div>
-                </div>
-            </header>
-            <main class="container">
 
-                <h1 class="visually-hidden">Портфолио</h1>
+<head>
+    <meta charset="utf-8">
+    <title>Александра Блажко Фронтенд разработчик</title>
 
-                <section class="skills">
-                    <h2 class="visually-hidden">Умения и знания</h2>
-                    <ul class="skills-list">
-                        <li class="skills-item hard">
-                          <h3>Умею</h3>
-                          <p>Html css js</p>
-                        </li>
-                        <li class="skills-item soft">
-                            <h3>Могу</h3>
-                            <p>bla bla</p>
-                        </li>
-                    </ul>
-                </section>
-                <section class="portfolio portfolio-list">
-                    <h2 class="portfolio works">Мои работы</h2>
-                    <ul class="portfolio-list">
-                        <li class="portfolio-item">
-                            <h3>Yoga</h3>
-                        </li>
-                        <li class="portfolio-item">
-                            <h3 class="visually-hidden">Codepen</h3>
-                            <a href="https://codepen.io/zzzfairy">Codepen</a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="contacts social-menu">
-                    <h2 class="contacts-title">Мои контакты</h2>
-                    <ul class="contacts-list">
-                        <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="social facebook">facebook</a></li>
-                            <li><a a href="#" class="social telegram">telegram</a></li>
-                            <li><a href="#" class="social git">git</a></li>
-                            <li tel class="social tel">№тел</li>
-                    </ul>
-                </section>
-            </main>
-            <footer class="footer">
-                <p class="footer-copyright">
-                    <b>Разработано:</b>
-                     zzzfairy@yandex.ru
-                </p>
-            </footer>
-        </body>
-    </head>
+<body>
+    <header class="page-header">
+        <div class="page-header_content">
+            <nav class="page-header_navigation">
+                <!--<img src="#" width="368" height="153" alt="Моё имя">-->
+                <ul class="page-header_navigation">
+                    <li class="info">Skills</li>
+                    <li class="works">Работы</li>
+                    <li class="portfolio">Портфолио</li>
+                </ul>
+                <ul class="page-header_social">
+                    <li><a href="https://www.facebook.com/Alexandra.Blazhko" aria-label="Facebook" class="social facebook">facebook</a></li>
+                    <li><a a href="#" class="social telegram">telegram</a></li>
+                    <li><a href="#" class="social git">git</a></li>
+                    <li tel class="social tel">№тел</li>
+                </ul>
+            </nav>
+            <div class="page-header_description"><img src="img/logo.jpg" width="405" height="533" alt="Описание"></div>
+        </div>
+    </header>
+    <main class="container">
+
+        <h1 class="visually-hidden">Портфолио</h1>
+
+        <section class="skills">
+            <h2 class="visually-hidden">Умения и знания</h2>
+            <ul class="skills-list">
+                <li class="skills-item hard">
+                    <h3>Умею</h3>
+                    <p>Html css js</p>
+                </li>
+                <li class="skills-item soft">
+                    <h3>Могу</h3>
+                    <p>bla bla</p>
+                </li>
+            </ul>
+        </section>
+        <section class="portfolio">
+            <h2 class="portfolio_works">Мои работы</h2>
+            <ul class="portfolio_list">
+                <li class="portfolio_list portfolio-item">
+                    <h3 class="portfolio-item item_title">Yoga</h3>
+                    <div>
+                        <a href="https://alexandra-blazhko.github.io/Yoga.github.io/" aria-label="Проект Йога"
+                            class="portfolio yoga"><img src="img/yoga.jpg" width="192" height="100" alt="yoga"></a>
+                            <p>
+                                Учебный проект по JavaScript
+                            </p>
+                    </div>
+                </li>
+                <li class="portfolio_list portfolio-item">
+                    <h3 class="portfolio-item item_title">Codepen</h3>
+                    <a href="https://codepen.io/zzzfairy" aria-label="Codepen">Codepen</a>
+                </li>
+            </ul>
+        </section>
+        <section class="contacts social">
+            <h2 class="contacts-title">Мои контакты</h2>
+            <ul class="contacts-list">
+                <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="social facebook" aria-label="Facebook">facebook</a></li>
+                <li><a a href="#" class="social telegram">telegram</a></li>
+                <li><a href="#" class="social git">git</a></li>
+                <li tel class="social tel">№тел</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-copyright">
+            <b>Разработано:</b>
+            zzzfairy@yandex.ru
+        </p>
+    </footer>
+</body>
+</head>
+
 </html>
