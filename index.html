@@ -16,7 +16,8 @@
                     <li class="portfolio">Портфолио</li>
                 </ul>
                 <ul class="page-header_social">
-                    <li><a href="https://www.facebook.com/Alexandra.Blazhko" aria-label="Facebook" class="social facebook">facebook</a></li>
+                    <li><a href="https://www.facebook.com/Alexandra.Blazhko" aria-label="Facebook"
+                            class="social facebook">facebook</a></li>
                     <li><a a href="#" class="social telegram">telegram</a></li>
                     <li><a href="#" class="social git">git</a></li>
                     <li tel class="social tel">№тел</li>
@@ -30,51 +31,62 @@
         <h1 class="visually-hidden">Портфолио</h1>
 
         <section class="skills">
-            <h2 class="visually-hidden">Умения и знания</h2>
-            <ul class="skills-list">
-                <li class="skills-item hard">
-                    <h3>Умею</h3>
-                    <p>Html css js</p>
-                </li>
-                <li class="skills-item soft">
-                    <h3>Могу</h3>
-                    <p>bla bla</p>
-                </li>
-            </ul>
+            <fieldset>
+                <!-- <h2 class="visually-hidden">Умения и знания</h2> -->
+                <legend>Умения и знания</legend>
+                <ul class="skills-list">
+                    <li class="skills-item hard">
+                        <h3>Умею</h3>
+                        <p>Html css js</p>
+                    </li>
+                    <li class="skills-item soft">
+                        <h3>Могу</h3>
+                        <p>bla bla</p>
+                    </li>
+                </ul>
+            </fieldset>
         </section>
         <section class="portfolio">
-            <h2 class="portfolio_works">Мои работы</h2>
-            <ul class="portfolio_list">
-                <li class="portfolio_list portfolio-item">
-                    <h3 class="portfolio-item item_title">Yoga</h3>
-                    <div>
-                        <a href="https://alexandra-blazhko.github.io/Yoga.github.io/" aria-label="Проект Йога"
-                            class="portfolio yoga"><img src="img/yoga.jpg" width="192" height="100" alt="yoga"></a>
+            <fieldset>
+                <!-- <h2 class="portfolio_works">Мои работы</h2> -->
+                <legend>Мои работы</legend>
+                <ul class="portfolio_list">
+                    <li class="portfolio_list portfolio-item">
+                        <h3 class="portfolio-item item_title">Yoga</h3>
+                        <div>
+                            <a href="https://alexandra-blazhko.github.io/Yoga.github.io/" aria-label="Проект Йога"
+                                class="portfolio yoga"><img src="img/yoga.jpg" width="192" height="100" alt="yoga"></a>
                             <p>
                                 Учебный проект по JavaScript
                             </p>
-                    </div>
-                </li>
-                <li class="portfolio_list portfolio-item">
-                    <h3 class="portfolio-item item_title">Codepen</h3>
-                    <a href="https://codepen.io/zzzfairy" aria-label="Codepen">Codepen</a>
-                </li>
-            </ul>
+                        </div>
+                    </li>
+                    <li class="portfolio_list portfolio-item">
+                        <h3 class="portfolio-item item_title">Codepen</h3>
+                        <a href="https://codepen.io/zzzfairy" aria-label="Codepen">Codepen</a>
+                    </li>
+                </ul>
+            </fieldset>
         </section>
         <section class="contacts social">
-            <h2 class="contacts-title">Мои контакты</h2>
-            <ul class="contacts-list">
-                <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="social facebook" aria-label="Facebook">facebook</a></li>
-                <li><a a href="#" class="social telegram">telegram</a></li>
-                <li><a href="#" class="social git">git</a></li>
-                <li tel class="social tel">№тел</li>
-            </ul>
+            <!-- <h2 class="contacts-title">Мои контакты</h2> -->
+            <fieldset>
+                <legend>Связаться со мной</legend>
+                <ul class="contacts-list">
+                    <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="social facebook"
+                            aria-label="Facebook">facebook</a></li>
+                    <li><a a href="#" class="social telegram">telegram</a></li>
+                    <li><a href="#" class="social git">git</a></li>
+                    <li tel class="social tel" type="tel">+7 911 123-85-39</li>
+                </ul>
+            </fieldset>
         </section>
     </main>
+    <a href="#" aria-label="вернуться наверх" class="top-button">Наверх</a>
     <footer class="footer">
         <p class="footer-copyright">
             <b>Разработано:</b>
-            zzzfairy@yandex.ru
+            <span class="visually-hidden" aria-label="copyright email">zzzfairy@gmail.com</span>
         </p>
     </footer>
 </body>
