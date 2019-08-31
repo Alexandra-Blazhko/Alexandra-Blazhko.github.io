@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: 000000;
+    outline: none;
+
+    background-color: #ffffff;
+    background-image: url("");
+    background-position: top center;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.page-header_navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    background-color: #000000;
+}
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list a {
+    color: #ffffff;
+}
+
+.contacts-list_item a:hover,
+.contacts-list_item a:focus {
+    background-color: #73d35b;
+}
+
+.contacts-list a:hover,
+.contacts-list a:focus {
+    background-color: #73d35b;
+}
+
+legend {
+    text-align: center;
+}
+
+.skills h3 {
+    font-size: 30px;
+    line-height: 42px;
+
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.portfolio-list {
+    list-style: none;
+
+    text-align: center;
+}
+
+.portfolio-list h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.portfolio-list_item a {
+    color: #055c17;
+}
+.portfolio-list_item a:hover,
+.portfolio-list_item a:focus {
+    background-color: #73d35b;
+}
+
+.footer {
+    color: #ffffff;
+
+    background-color: #000000;
+    background-position: 0 0;
+}
