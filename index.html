@@ -3,29 +3,30 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap&subset=cyrillic"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Александра Блажко Фронтенд разработчик</title>
 
 <body>
-    <header class="page-header">
-        <div class="page-header_content">
-            <nav class="page-header_navigation">
-                <!--<img src="#" width="368" height="153" alt="Моё имя">-->
-                <!-- <ul class="page-header_navigation">
-                    <li class="info">Skills</li>
-                    <li class="works">Работы</li>
-                    <li class="portfolio">Портфолио</li>
-                </ul> -->
-                <ul class="page-header_navigation contacts-list">
+    <header class="header">
+        <nav class="header_navigation">
+            <div class="header_navigation-wrapper">
+            <div class="container">
+                <ul class="header_navigation contacts-list">
                     <li><a href="https://www.facebook.com/Alexandra.Blazhko" class="contacts-list_item facebook"
                             aria-label="Facebook">facebook</a></li>
                     <li><a a href="https://t.me/zzzfairy" class="contacts-list_item telegram">telegram</a></li>
-                    <li><a href="#" class="contacts-list_item git">git</a></li>
+                    <li><a href="https://github.com/Alexandra-Blazhko" class="contacts-list_item git">git</a></li>
                 </ul>
-            </nav>
-            <div class="page-header_description"><img src="img/logo.jpg" width="405" height="533" alt="Описание"></div>
-        </div>
+                <ul class="header_navigation works">
+                    <li>Works</li>
+                </ul>
+            </div>
+            </div>
+            <a class="header_img"><img src="img/logo.jpg" width="400" height="367" alt="Описание"></a>
+            </a>
+        </nav>
     </header>
     <main class="container">
 
@@ -56,10 +57,12 @@
                         <h3 class="portfolio-list_title">Yoga</h3>
                         <div>
                             <a href="https://alexandra-blazhko.github.io/Yoga.github.io/" aria-label="Проект Йога"
-                                class="portfolio-item item_yoga"><img src="img/yoga.jpg" width="192" height="100" alt="yoga"></a>
+                                class="portfolio-item item_yoga"><img src="img/yoga.jpg" width="192" height="100"
+                                    alt="yoga"></a>
                             <p>
                                 Учебный проект по JavaScript<br>
-                                Посмотреть весь мой код можно на <a href="https://github.com/Alexandra-Blazhko/Yoga.github.io" aria-label="Гит">Git.</a>
+                                Посмотреть весь мой код можно на <a
+                                    href="https://github.com/Alexandra-Blazhko/Yoga.github.io" aria-label="Гит">Git.</a>
                             </p>
                         </div>
                     </li>
@@ -71,7 +74,7 @@
             </fieldset>
         </section>
     </main>
-        <footer class="footer">
+    <footer class="footer">
         <section class="contacts">
             <!-- <h2 class="contacts-title">Мои контакты</h2> -->
             <fieldset>
@@ -81,11 +84,12 @@
                             aria-label="Facebook">facebook</a></li>
                     <li><a a href="#" class="contacts-list_item telegram">telegram</a></li>
                     <li><a href="#" class="contacts-list_item git">git</a></li>
-                    <li tel class="contacts-list_item tel" type="tel"><a href="tel:+79111238539">Позвонить +7 (911) 123 85 39</a></li>
+                    <li tel class="contacts-list_item tel" type="tel"><a href="tel:+79111238539">Позвонить +7 (911) 123
+                            85 39</a></li>
                 </ul>
             </fieldset>
         </section>
-    <a href="#" aria-label="вернуться наверх" class="top-button">Наверх</a>
+        <a href="#" aria-label="вернуться наверх" class="top-button">Наверх</a>
         <p class="footer-copyright">
             <b>Разработано:</b>
             <span class="visually-hidden" aria-label="copyright email">zzzfairy@gmail.com</span>
