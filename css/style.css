@@ -15,11 +15,41 @@ body {
     background-repeat: no-repeat;
 }
 
+a {
+    text-decoration: none;   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
 .header_navigation {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
-    margin-bottom: 75px;
 }
 
 .header_navigation-wrapper {
@@ -41,9 +71,9 @@ body {
 
 .header_navigation .contacts-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;;
     justify-content: space-between;
-    width: 250px;
+    width: 200px;
     margin: 0;
     padding: 0;
 
@@ -53,10 +83,6 @@ body {
 .header_img {
     width: 400px;
     height: 367px;
-}
-
-a {
-    text-decoration: none;   
 }
 
 .header_navigation .works {
@@ -83,7 +109,28 @@ a {
     background-color: #73d35b;
 }
 
+.skills {
+    margin-bottom: 30px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0;
+
+    list-style: none;
+}
+.skills-item {
+    width: 450px;
+}
+
 legend {
+    border: none;
     text-align: center;
 }
 
@@ -91,9 +138,6 @@ legend {
     text-align: center;
 }
 
-.skills-list {
-    list-style: none;
-}
 
 .skills-item_hard h3 {
     text-align: center;
@@ -104,9 +148,19 @@ legend {
 }
 
 .portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+
     list-style: none;
 
     text-align: center;
+}
+
+.portfolio-list_item {
+    width: 450px;
 }
 
 .portfolio-list_title h3 {
@@ -125,8 +179,33 @@ legend {
 }
 
 .footer {
+    padding: 30px 0;
+    margin-top: 30px;
+
     color: #ffffff;
 
     background-color: #000000;
     background-position: 0 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer .contacts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0;
+    
+
+    list-style: none;
+}
+
+.footer-copyright {
+    margin: 0;
+    margin-left: auto;
+    width: 140px;
 }
