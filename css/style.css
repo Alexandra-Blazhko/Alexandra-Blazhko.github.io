@@ -69,6 +69,12 @@ input[type="radio"].visually-hidden {
     padding: 0 10px;
 }
 
+.header_navigation a {
+    display: block;
+    padding: 25px 20px;
+    color: #ffffff;
+}
+
 .header_navigation .contacts-list {
     display: flex;
     justify-content: space-between;
@@ -76,6 +82,7 @@ input[type="radio"].visually-hidden {
     width: 200px;
     margin: 0;
     padding: 0;
+    
 
     list-style: none;
 }
@@ -84,8 +91,19 @@ input[type="radio"].visually-hidden {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+    background-color: #000000;
+}
+
+.header_navigation .email {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
 
     background-color: #000000;
 }
@@ -95,39 +113,18 @@ input[type="radio"].visually-hidden {
     height: 367px;
 }
 
-.header_navigation .works {
-    margin: 0;
-    padding: 0;
-    width: 140px;
-
-    color: #ffffff;
-
-    list-style: none;
+.contacts-list_item:hover path,
+.contacts-list_item:focus path {
+    fill: #73d35b;
 }
 
-.header_navigation a {
-    display: block;
-    padding: 25px 20px;
-    color: #ffffff;
+.email:hover path,
+.email:focus path {
+    fill: #73d35b;
 }
-
-.contacts-list_item a:hover,
-.contacts-list_item a:focus {
-    background-color: #73d35b;
-}
-
-.contacts-list a:hover,
-.contacts-list a:focus {
-    background-color: #73d35b;
-}
-
 
 .skills {
     margin-bottom: 30px;
-}
-
-.footer {
-    margin-top: 30px;
 }
 
 .skills-list {
@@ -138,6 +135,7 @@ input[type="radio"].visually-hidden {
 
     list-style: none;
 }
+
 .skills-item {
     width: 450px;
 }
@@ -186,6 +184,7 @@ legend {
 .portfolio-list_item a {
     color: #055c17;
 }
+
 .portfolio-list_item a:hover,
 .portfolio-list_item a:focus {
     background-color: #73d35b;
@@ -203,22 +202,39 @@ legend {
 
 .footer .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 .footer .contacts-list {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row; 
     width: 200px;
     margin: 0;
+    padding: 0;
     
-
     list-style: none;
+}
+
+.footer .tel {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    background-color: #000000;
 }
 
 .footer-copyright {
     margin: 0;
     padding: 0;
     width: 140px;
+}
+
+.footer .tel a {
+    color: #ffffff;
+}
+
+.footer .tel a:hover,
+.footer .tel a:focus {
+    color: #73d35b;
 }
