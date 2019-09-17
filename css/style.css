@@ -146,14 +146,23 @@ input[type="radio"].visually-hidden {
 }
 
 .modal {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    width: 940px;
+    height: 50%;
+
     position: fixed;
 
     color: #000000;
 
     background-color: #73d35b;
+    overflow: hidden;
+    transition: visibility 1s, z-index 1s, box-shadow 0.3s;
+    z-index: -1;
     box-shadow:  0 30px 50px  rgba(0, 0, 0, 0.5);
-
-    opacity: 0;
     transition: opacity 200ms ease-in; /* анимация перехода */
 
 }
@@ -190,14 +199,14 @@ input[type="radio"].visually-hidden {
     box-shadow:none;  
 }
 
-.modal-about {
+/*.modal-about {
     top: 120px;
     left: 50%;
 
     width: 920px;
     margin-left: -470px;
     padding: 0 10px;
-}
+}*/
 
 .modal-close a {
     margin: 0;
@@ -212,8 +221,6 @@ input[type="radio"].visually-hidden {
     height: 25px;
 
     font-size: 0;
-
-    /*background-color: red;*/
     border: 0;
 
     cursor: pointer;
