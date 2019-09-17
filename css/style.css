@@ -172,7 +172,7 @@ input[type="radio"].visually-hidden {
 }
 
 .skills-item {
-    width: 470px;
+    width: 50%;
 }
 
 legend {
@@ -206,7 +206,7 @@ legend {
 }
 
 .portfolio-list_item {
-    width: 470px;
+    width: 50%;
 }
 
 .portfolio-list_title h3 {
@@ -244,7 +244,7 @@ legend {
     display: flex;
     justify-content: space-between;
     flex-direction: row; 
-    width: 200px;
+    width: 140px;
     margin: 0;
     padding: 0;
     
