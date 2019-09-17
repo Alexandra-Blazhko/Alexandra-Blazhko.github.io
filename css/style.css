@@ -145,7 +145,7 @@ input[type="radio"].visually-hidden {
     padding-bottom: 100px;
 }
 
-.modal {
+/*.modal {
     position: absolute;
     -webkit-transform-style: preserve-3d;
     top: 50%;
@@ -166,7 +166,7 @@ input[type="radio"].visually-hidden {
     transition: opacity 200ms ease-in; /* анимация перехода */
 
 }
-
+/*
 .btn-modal-open {
     display: inline-block;
     position: absolute;
@@ -197,7 +197,7 @@ input[type="radio"].visually-hidden {
     background-color: #25756a;
     color: #ffffff; 
     box-shadow:none;  
-}
+} */
 
 /*.modal-about {
     top: 120px;
@@ -208,7 +208,7 @@ input[type="radio"].visually-hidden {
     padding: 0 10px;
 }*/
 
-.modal-close a {
+/*.modal-close a {
     margin: 0;
     padding: 0;
 }
@@ -251,7 +251,7 @@ input[type="radio"].visually-hidden {
 .modal:target {
     opacity: 1;
     pointer-events: auto;
-}
+} */
 
 .skills {
     margin-bottom: 30px;
