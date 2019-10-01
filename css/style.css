@@ -56,19 +56,19 @@ input[type="radio"].visually-hidden {
     margin-bottom: 30px;
 }
 
-.header_navigation {
+.header-navigation {
     display: flex;
     flex-direction:column;
     align-items: center;
 }
 
-.header_navigation-wrapper {
+.header-navigation__wrapper {
     width: 100%;
     margin-bottom: 0;
 
     background-color: #000000;
 }
-.header_navigation-wrapper .container {
+.header-navigation__wrapper .container {
     display: flex;
     justify-content: space-between;
 
@@ -82,17 +82,17 @@ input[type="radio"].visually-hidden {
 
 }
 
-.header_navigation a {
+.header-navigation a {
     display: block;
     padding: 25px 20px;
     color: #ffffff;
 }
 
-.header_navigation .contacts-list {
+/*.header-navigation*/ .contacts-list {
     display: flex;
     justify-content: space-between;
     flex-direction: row; 
-    width: 200px;
+    /*width: 200px;*/
     margin: 0;
     padding: 0;
     
@@ -100,7 +100,7 @@ input[type="radio"].visually-hidden {
     list-style: none;
 }
 
-.contacts-list_item {
+.contacts-list__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,7 @@ input[type="radio"].visually-hidden {
     padding: 10px;
 }
 
-.header_navigation .email {
+/*.header-navigation*/ .email {
     display: flex;
     /*width: 30px;
     height: 30px;*/
@@ -119,13 +119,13 @@ input[type="radio"].visually-hidden {
     background-color: #000000;
 }
 
-.header_img {
+/*.header_img {
     width: 400px;
     height: 367px;
-}
+}*/
 
-.contacts-list_item:hover path,
-.contacts-list_item:focus path {
+.contacts-list__item:hover path,
+.contacts-list__item:focus path {
     fill: #73d35b;
 }
 
@@ -146,13 +146,13 @@ input[type="radio"].visually-hidden {
     text-align: center;
 }
 
-.header-text_title {
+.header-text__title {
     margin: 0 auto;
     padding-top: 100px;
     margin-bottom: 10px;
 }
 
-.header-text_about {
+.header-text__about {
     margin: 0;
     padding-bottom: 100px;
 }
@@ -186,13 +186,13 @@ legend {
 }
 
 
-.skills-item_hard h3 {
+/*.skills-item_hard h3 {
     text-align: center;
 }
 
 .skills-item_soft h3 {
     text-align: center;
-}
+}*/
 
 .portfolio-list {
     display: flex;
@@ -206,23 +206,23 @@ legend {
     text-align: center;
 }
 
-.portfolio-list_item {
+.portfolio-item {
     width: 50%;
 }
 
-.portfolio-list_title h3 {
+.portfolio-item__title h3 {
     font-family: "Open Sans Condensed", Arial, sans-serif;
     font-size: 30px;
     line-height: 42px;
 
 }
 
-.portfolio-list_item a {
+.portfolio-item a {
     color: #055c17;
 }
 
-.portfolio-list_item a:hover,
-.portfolio-list_item a:focus {
+.portfolio-item a:hover,
+.portfolio-item a:focus {
     background-color: #73d35b;
 }
 
@@ -236,11 +236,11 @@ legend {
     background-position: 0 0;
 }
 
-.footer .container {
+/*.footer .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
+}*/
 /*.footer-contacts {
     display: flex;
     justify-content: space-between;
